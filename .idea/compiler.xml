@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-mvc" />
         <module name="PP_2_2_2_spring-mvc" />
+        <module name="KATA-PP-Spring-MVC-2_2_2" />
       </profile>
     </annotationProcessing>
   </component>
