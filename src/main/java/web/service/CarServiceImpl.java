@@ -5,7 +5,7 @@ import web.model.Car;
 
 import java.util.LinkedList;
 import java.util.List;
-
+import java.util.stream.*;
 @Service
 public class CarServiceImpl implements CarService {
 
@@ -20,6 +20,7 @@ public class CarServiceImpl implements CarService {
     @Override
     public List<Car> getList(int count) {
         if (count < 5) {
+
             return list.stream().limit(count).toList();
         } else {
             return list;
